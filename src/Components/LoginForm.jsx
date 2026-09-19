@@ -3,6 +3,8 @@ const initialStates = {
   email: "",
   password: "",
 };
+
+// login form
 const LoginForm = () => {
   const [userDetails, setUserDetails] = useState(initialStates);
 
