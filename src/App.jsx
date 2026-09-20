@@ -1,3 +1,4 @@
+import DataFetching from "./Components/DataFetching"
 import LoginForm from "./Components/LoginForm"
 import Style from "./Components/Style"
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Style></Style>
       <LoginForm/>
+      <DataFetching/>
       
     </div>
   )
